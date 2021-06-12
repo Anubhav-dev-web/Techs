@@ -1,0 +1,62 @@
+.nav-bar{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-left: 30px; 
+}
+.content .content-left{
+    max-width: 85%;
+    font-family: var(--font2);
+    font-size:25px;
+    padding-top: 2rem;
+    margin:0;
+    padding:10px;
+    margin-bottom: 2rem;
+   }
+   .apple-main-img{
+     
+     
+    height:300px;
+    width:70%;
+    height:50%;
+    padding-left: 4rem;
+   }
+   .content .content-right img{
+ 
+    margin-top:3rem;
+  }
+  .btn{
+  
+    padding:12px 13px;
+    border-color: black;
+    border-radius: 10px;
+    margin-left:1rem;
+}
+.mob {
+    padding-top: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    max-width: 80%;
+    margin: auto;
+    font-size: 25px;
+}
+.sec2 ul li{
+    margin:1rem;
+    width:80;
+}
+.sec2{
+    margin-left: 10px;
+}
+.sec2 ul li{
+    
+   
+
+}

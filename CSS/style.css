@@ -1,0 +1,110 @@
+
+.nav-bar {
+    display:flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    height: 3rem;
+    align-items: center;
+    padding-bottom: 2*rem;
+    
+}
+.nav-bar .left {
+    font-size:30px;
+    font-family: var(--font1);
+  }  
+    
+.nav-bar ul li{
+    display:inline-block;
+    list-style: none;
+    
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size:25px;
+    color: black;
+    font-family: var(--font1);
+}
+.nav-bar ul li a:hover {
+    color:greenyellow;
+    
+}
+/*content*/
+.content{
+    display:flex;
+    padding-top: 4rem;
+    justify-content: space-around;
+    height:auto;
+
+}
+.content .content-right2 img{
+  height:300px;
+  width: 400px;
+  margin:0;
+  padding:0 4px;
+}
+.content .content-left{
+   max-width: 40%;
+   font-family: var(--font2);
+   font-size:25px;
+   padding-top: 4rem;
+  }
+  .apple-main-img{
+     
+     
+      height:300px;
+      width:70%;
+      height:50%;
+      padding-left: 15rem;
+      
+  }
+  .sec2{
+     
+      margin-top: 5rem;
+  }
+  .sec2 p{
+      margin-top:2rem;
+      margin-bottom:2rem;
+
+  }
+  .sec2 ul li{
+    margin:1rem;
+}
+.content .content-right img{
+  
+  height:300px;
+  width: 400px;
+  margin-top:15rem;
+}
+/*css for mobiles*/
+.mobiles{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:2rem;
+  
+}
+.mobiles .h2{
+  font-size:45px;
+  
+}
+.mob {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    max-width: 60%;
+    margin: auto;
+    font-size: 25px;
+}
+.content .content-rightimg6{
+   height:auto;
+   
+  }
+  /*others*/
+  .poop p{
+      display:flex;
+      align-items: center;
+      justify-content:center;
+      font-family: var(--font2);
+      font-size: xx-large;
+  }
