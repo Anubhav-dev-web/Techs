@@ -1,3 +1,6 @@
+*{
+    font-family:url(--font2)
+}
 .nav-bar{
     display:flex;
     text-align: center;
